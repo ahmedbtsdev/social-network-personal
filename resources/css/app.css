@@ -1,0 +1,23 @@
+@import 'charts.css';
+@import 'ant-design-vue/dist/reset.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #343a4b;
+}
+
+.icon-breadcrumb {
+  top: -1px;
+}
+
+.bulleted-list li:not(:last-child):after {
+  padding-left: 4px;
+  content: '•';
+}
+
+.uploadcare--button_primary {
+  background: #3891ff;
+}
